@@ -1,0 +1,663 @@
+.rpaw{
+  position:relative;
+  transform:translate(-50px, -65px);
+}
+.paw{
+  width:50px;
+  height:50px;
+  background-color:orange;
+  border-radius:50%;
+  transform:translate(100px,100px);
+  position:relative;
+}
+.pad1{
+   width:25px;
+  height:25px;
+  background-color:orange;
+  border-radius:50%;
+  transform:translate(-15px,-5px);
+  position:relative;
+}
+.pad2{
+   width:25px;
+  height:25px;
+  background-color:orange;
+  border-radius:50%;
+  transform:translate(12.5px,-45px);
+  position:relative;
+}
+.pad3{
+   width:25px;
+  height:25px;
+  background-color:orange;
+  border-radius:50%;
+  transform:translate(40px,-55px);
+  position:relative;
+}
+.pawg{
+  width:40px;
+  height:40px;
+  background-color:black;
+  border-radius:50%;
+  transform:translate(105px,55px);
+  position:relative;
+}
+.pad1g{
+   width:15px;
+  height:15px;
+  background-color:black;
+  border-radius:50%;
+  transform:translate(-15px,-5px);
+  position:relative;
+}
+.pad2g{
+   width:15px;
+  height:15px;
+  background-color:black;
+  border-radius:50%;
+  transform:translate(12px,-35px);
+  position:relative;
+}
+.pad3g{
+   width:15px;
+  height:15px;
+  background-color:black;
+  border-radius:50%;
+  transform:translate(41px,-35px);
+  position:relative;
+}
+.neck{
+  width:1300px;
+  height:1050px;
+  z-index:5;
+  top:20px;
+  position:relative;
+  background:#BC4A3C;
+}
+.top{
+  width:1300px;
+  height:100px;
+  background:seagreen;
+  margin:0px;
+}
+.align{
+  margin-right:auto;
+  margin-left:auto;
+}
+.rec{
+  z-index:2;
+  color:white;
+  transform:translate(-600px, -70px);
+  float:right;
+  position:relative;
+}
+.rec1{
+  z-index:2;
+  color:white;
+  transform:translate(-100px, -70px);
+  float:right;
+  position:relative;
+}
+.rec2{
+  z-index:2;
+  color:white;
+  transform:translate(-1000px, -70px);
+  float:right;
+  position:relative;
+}
+.rel{
+  position:relative;
+}
+.serve1{
+  width:300px;
+  height:150px;
+  transform:translate(-200px, 100px);
+  background:lightgrey;
+}
+.serve2{
+  width:300px;
+  height:150px;
+  transform:translate(200px, -50px);
+  background:lightgrey;
+}
+.menu{
+  width:50px;
+  height:100px;
+  background:white;
+  border:2px solid black;
+  bottom:70px;
+  right:300px;
+  transition-duration:2s;
+  transition-property:width, height;
+}
+.menu:hover{
+  width:120px;
+  height:180px;
+}
+.menuclick{
+  font-size:10px;
+  text-align:center;
+}
+.fancy{
+  font-size:18px;
+  color:blue;
+  max-width:20px;
+  bottom:15px;
+}
+.menuwebsite{
+  font-size:0px;
+  transition-duration:2s;
+  transition-property:font-size;
+}
+.menu:hover > .menuwebsite{
+  font-size:15px;
+}
+.menu:hover > .fancy{
+  font-size:0px;
+}
+.minfo{
+}
+.m1{
+  bottom:10px;
+}
+.m2{
+  bottom:35px;
+}
+.m3{
+  bottom:60px;
+}
+.m4{
+  bottom:85px;
+}
+.m5{
+  bottom:110px;
+}
+.border{
+  width:300px;
+  height:25px;
+  background:#d9c2a6;
+  top:150px;
+}
+.border2{
+  width:300px;
+  height:25px;
+  background:#d9c2a6;
+  top:150px;
+}
+.drinks{
+  width:200px;
+  height:600px;
+  background:#d9c2a6;
+  top:50px;
+}
+.window{
+  width:240px;
+  width:80px;
+  background:lightblue;
+  z-index:5;
+}
+.salad{
+  width:180px;
+  height:500px;
+  background:#d9c2a6;
+  bottom:600px;
+}
+.traysp{
+  width:70px;
+  height:100px;
+  background:grey;
+  left:20px;
+  bottom:5px;
+  border:5px solid black;
+  transition-duration:2s;
+  transition-property:width, height, bottom;
+}
+.tray{
+  width:70px;
+  height:100px;
+  background:grey;
+  left:20px;
+  bottom:115px;
+  border:5px solid black;
+  transition-duration:0s;
+  transition-property:width, height;
+}
+.trayt{
+  width:70px;
+  height:100px;
+  background:grey;
+  left:20px;
+  bottom:5px;
+  border:5px solid black;
+  transition-duration:0s;
+  transition-property:width, height;
+}
+.food{
+  width:0px;
+  height:0px;
+  transition-duration:1s;
+  transition-property:width, height, bottom;
+  z-index:2;
+}
+.food1{
+  width:0px;
+  height:0px;
+  left:90px;
+  transition-duration:1s;
+  transition-property:width, height, bottom;
+  z-index:2;
+  bottom:105px;
+}
+.food2{
+  width:10px;
+  height:10px;
+  left:180px;
+  transition-duration:1s;
+  transition-property:width, height, bottom;
+  z-index:2;
+  bottom:210px;
+}
+.traysp:hover{
+}
+.traysp:hover > .food{
+  width:70px;
+  height:100px;
+  z-index:2;
+}
+.traysp:hover > .food1{
+  width:70px;
+  height:100px;
+  z-index:2;
+}
+.traysp:hover > .food2{
+  width:70px;
+  height:100px;
+  z-index:2;
+}
+#food{
+  font-size:15px;
+  color:white;
+  transition-duration:2s;
+  transition-property:font-size;
+  
+}
+.traysp:hover > #food{
+  font-size:0px;
+}
+.t2{
+  left:110px;
+  margin-top:-110px;
+}
+.t3{
+  left:200px;
+}
+.t33{
+  left:200px;
+  margin-top:-100px;
+}
+.tray{
+}
+.trays{
+  margin-top:110px;
+}
+.trays2{
+  top:110px;
+}
+.smetal{
+  height:500px;
+  width:70px;
+  background:grey;
+}
+.mline{
+  height:500px;
+  width:2px;
+  background:grey;
+}
+.l1{
+  right:43px;
+}
+.l2{
+  left:15px;
+}
+.l3{
+  left:15px;
+}
+.metalrow2{
+  left:125px;
+  bottom:500px;
+}
+.dispenser{
+  width:120px;
+  height:120px;
+  background:white;
+  border-radius:10%;
+  text-align:center;
+  font-size:30px;
+  transition-duration:2s;
+  transition-property:width, height;
+}
+.dispenser:hover{
+  width:200px;
+  height:200px;
+}
+.choco{
+  margin-top:90px;
+  background:#7B3F00;
+  color:white;
+}
+.milk{
+  margin-top:20px;
+}
+.cereal{
+  width:120px;
+  height:200px;
+  border-radius:10%;
+  text-align:center;
+  font-size:30px;
+  background:lightgrey;
+  top:70px;
+}
+.cerb{
+  border-radius:20%;
+}
+.cer1{
+  width:110px;
+  height:50px;
+  background:black;
+}
+.cer2{
+  width:110px;
+  height:50px;
+  margin-top:5px;
+  background:black;
+}
+.cer3{
+  width:110px;
+  height:50px;
+  margin-top:5px;
+  background:black;
+}
+.cutout{
+  width:300px;
+  height:1000px;
+  background:lightblue;
+  position:relative;
+  float:right;
+}
+.door{
+  width:70px;
+  height:200px;
+  background:#BA8C63;
+  float:right;
+  left:562px;
+  font-size:0px;
+  z-index:2;
+  transition-duration:2s;
+  transition-property:width, height, font-size;
+}
+.door:hover{
+  width:100px;
+  height:200px;
+  font-size:20px;
+}
+.click{
+  font-size:20px;
+  text-align:center;
+}
+.abs{
+  position:absolute;
+}
+.line1{
+  width:10px;
+  height:550px;
+  background:black;
+  transform:translate(-180px, -500px);
+}
+.line2{
+  width:10px;
+  height:550px;
+  background:black;
+  transform:translate(520px, 0px);
+}
+.arr{
+  left:100px;
+  top:50px;
+  transform:scale(0.5);
+}
+.arr3{
+  right:475px;
+  top:50px;
+  transform:scale(0.5) rotate(180deg);
+}
+.atilt{
+  left:50px;
+  top:100px;
+  transform:scale(0.5) rotate(45deg);
+}
+.atilt1{
+  left:20px;
+  top:150px;
+  transform:scale(0.5) rotate(-45deg);
+}
+.t3{
+  margin-top:-1075px;
+}
+.a2{
+  top:200px;
+}
+.a5{
+  top:200px;
+  transition:rotate(180deg);
+}
+.baserec{
+  width:100px;
+  height:20px;
+  background:orange;
+  transform:translate(51px, 70px)rotate(90deg);
+}
+.tri{
+  width: 0;
+  height: 0;
+  border: 25px solid transparent;
+  border-top: 0;
+  border-bottom: 80px solid orange;
+  transform:translate(75px, -65px);
+}
+.arrline{
+  transform:translate(-200px, 0px);
+  margin-top:-500px;
+}
+.arrline1{
+  margin-top:0px;
+  transform:translate(-350px, 0px) rotate(180deg);
+}
+.arrline2{
+  margin-top:400px;
+  transform:rotate(180deg) translate(0px, 0px);
+}
+.arrline3{
+  margin-top:-400px;
+  transform:translate(150px, 0px) rotate(180deg);
+}
+.arrows1{
+  margin:0px;
+}
+.arrows2{
+}
+.atilt2{
+  transform:scale(0.5) translate(-800px, 1100px) rotate(135deg);
+}
+.t3{
+  top:850px;
+  margin-right:75px;
+}
+div.row{
+  margin-bottom:0px;
+}
+
+.window{
+  width:150px;
+  height:50px;
+  background:lightblue;
+  border:3px solid white;
+  animation-iteration-count:infinite;
+  animation-duration:30s;
+  animation-name:window;
+  margin:2px;
+}
+.wl1{
+  width:150px;
+  height:3px;
+  background:white;
+  top:25px;
+  right:1px;
+  border:1px solid black;
+}
+.wl2{
+  width:3px;
+  height:50px;
+  background:white;
+  left:75px;
+  bottom:5px;
+  border:1px solid black;
+}
+@keyframes window{
+  0%{background:lightblue;}
+  25%{background:black;}
+  50%{background:lightblue;}
+  75%{background:black;}
+}
+.wline{
+  width:100%;
+  height:2px;
+  background:black;
+  top:70px;
+}
+.star{
+  transform:scale(0.3);
+}
+.wone{
+  width:60px;
+  height:60px;
+  background-color:yellow;
+  float:left;
+  margin-left:-5px;
+  margin-top:30px;
+  animation-name:star;
+  animation-iteration-count:infinite;
+  animation-duration:30s;
+}
+@keyframes star{
+  0%{background:lightblue;}
+  25%{background:yellow;}
+  50%{background:lightblue;}
+  75%{background:yellow;}
+}
+@keyframes starback{
+  0%{background:lightblue;}
+  25%{background:black;}
+  50%{background:lightblue;}
+  75%{background:black;}
+}
+.wa1{
+  width:30px;
+  height:30px;
+  float:left;
+  background-color:lightblue;
+  border-bottom-right-radius:50%;
+  animation-name:starback;
+  animation-iteration-count:infinite;
+  animation-duration:30s;
+}
+.wb1{
+  width:30px;
+  height:30px;
+  float:left;
+  background-color:lightblue;
+  border-bottom-left-radius:50%;
+  animation-name:starback;
+  animation-iteration-count:infinite;
+  animation-duration:30s;
+}
+.wc1{
+  width:30px;
+  height:30px;
+  float:left;
+  background-color:lightblue;
+  border-top-right-radius:50%;
+  animation-name:starback;
+  animation-iteration-count:infinite;
+  animation-duration:30s;
+}
+.wd1{
+  width:30px;
+  height:30px;
+  float:left;
+  background-color:lightblue;
+  border-top-left-radius:50%;
+  animation-name:starback;
+  animation-iteration-count:infinite;
+  animation-duration:30s;
+}
+.wall{
+  width:100%;
+  height:70px;
+  background:#d9c2a6;
+}
+.s2{
+  right:50px;
+  bottom:0px;
+}
+.s1{
+  bottom:0px;
+}
+.evelse{
+  top:50px;
+}
+.chef{
+  font-size:50px;
+  width:80px;
+  height:60px;
+  top:80px;
+  left:400px;
+  z-index:1;
+  transition-duration:2s;
+  transition-property:width, height, font-size;
+}
+.chef:hover{
+  font-size:0px;
+}
+.prodave{
+  width:0px;
+  height:0px;
+  transition-duration:2s;
+  transition-property:width, height, font-size;
+}
+.chef:hover > .prodave{
+  width:100px;
+  height:120px;
+}
+.daveintro{
+  width:100px;
+  height:60px;
+  background:white;
+  left:80px;
+  bottom:50px;
+  font-size:0px;
+  transition-duration:2s;
+  transition-property:width, height, font-size, bottom, left, opacity;
+  opacity:0%;
+}
+.chef:hover > .daveintro{
+  width:170px;
+  height:60px;
+  font-size:13px;
+  left:100px;
+  bottom:120px;
+  opacity:70%;
+}
+.clchef{
+  font-size:15px;
+  bottom:5px;
+  font-weight:bold;
+}
